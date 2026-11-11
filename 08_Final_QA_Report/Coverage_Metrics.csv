@@ -1,0 +1,4 @@
+﻿Module,Covered statements,Statements,Statement rate,Covered branches,Branches,Branch rate,Combined rate
+helpers.py,31,31,1,18,18,1,1
+app.py,181,299,0.6053511705685619,28,64,0.4375,0.5757575757575758
+Combined,212,330,0.6424242424242425,46,82,0.5609756097560976,0.6262135922330098

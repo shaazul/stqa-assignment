@@ -1,0 +1,16 @@
+{
+  "app.py": "a88801b7f1baaa5b5c4a3e2eb94d11b0be441fde9aa45a35414a6eca58a0bd25",
+  "helpers.py": "258bb41f31e85abe3e1521c663afb5ee5f7f79564967cb4b9e2aa325968e6a01",
+  "locustfile.py": "c52404a7e6d55340eef612c1ef30a6f35ff2b0279faa2ebf5105f9372c311627",
+  "README.md": "f5f9c023b8dc507fa5080b4d282217ec67d515dba1f94f790ac0a7406dca5465",
+  "requirements.txt": "776af3141d631609bfe9b8f89de1005886cae8f5b800021b3ecef0d6cb314977",
+  "test_api_automation.py": "0863952643708d305686ebf8ffd167ca437f48d3945e81437efc1c16cfd34cf0",
+  "test_helpers.py": "917211c639aab5a948e18787f7cf4ccd831715829761a13c970270c7c813bc71",
+  "static\\style.css": "4edcea2340278a61de88a414b12ff5b325587d2922ea46f37032a01e1b449504",
+  "templates\\base.html": "cc341329c61dc4b9945dbededa3ff2a368bafd11f54c88ceed44dd7f9355d60a",
+  "templates\\dashboard.html": "872918bfc4cd939c507f9206e70a0030389fef4a0a080d2e9ae501b6d0a7782f",
+  "templates\\index.html": "a8f4987ce3e6ff6870be0d9e1303a372142557207dc2485557f0b1054e076e56",
+  "templates\\login.html": "054b61b0d335ddabf11b87755a4517c83ec1d85dd719096828949ce0f55c7a0c",
+  "templates\\register.html": "a27ee9c122e526e0485275363ca58ceaae21dfa963b97bd300426f1b9023de52",
+  "templates\\task_form.html": "1ffd4d6630af9fcf5b8b215273930baf30492e3f34c36c3b508733bd6852e0f4"
+}

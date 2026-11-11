@@ -1,0 +1,11 @@
+﻿Population,Planned applicable,Executed/assessed,Pass,Fail,Blocked,Not Run,NA,Pass rate,Evidence note
+Historical Week 1,84,84,78,6,0,0,0,0.9285714285714286,Two historical Pass claims need evidence reconciliation
+Historical Week 2 register,23,23,20,3,0,0,0,0.8695652173913043,25 functions in saved suite; not additive
+Historical Week 3,25,25,21,4,0,0,1,0.84,NA excluded
+Historical Week 4,36,36,33,3,0,0,0,0.9166666666666666,Web/API/comparison rows
+Historical Week 5 security,8,8,5,3,0,0,2,0.625,Four reused evidence rows; NA excluded
+Historical Week 6 mappings,15,15,13,2,0,0,0,0.8666666666666667,14 distinct functions plus 2 supplemental functions
+Current helpers,25,25,22,3,0,0,0,0.88,New run
+Current existing API,16,16,14,2,0,0,0,0.875,New run
+Current verification,3,3,2,1,0,0,0,0.6666666666666666,New run
+Current run TOTAL,44,44,38,6,0,0,0,0.8636363636363636,Do not sum with historical rows

@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\hakim\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+rootdir: C:\Users\hakim\.codex\.chatgpt-projects\g-p-6a9e857166a08191904b70e561216dca\outputs\09_Presentation\application
+collecting ... collected 3 items
+
+test_week7_verification.py::test_clean_session_task_access_is_denied PASSED [ 33%]
+test_week7_verification.py::test_cross_user_get_is_denied PASSED         [ 66%]
+test_week7_verification.py::test_cross_user_delete_is_denied_and_owner_task_survives FAILED [100%]
+
+================================== FAILURES ===================================
+__________ test_cross_user_delete_is_denied_and_owner_task_survives ___________
+test_week7_verification.py:44: in test_cross_user_delete_is_denied_and_owner_task_survives
+    assert (response.status_code in (403, 404) and after.status_code == 200
+E   AssertionError: (200, 404)
+E   assert (200 in (403, 404))
+E    +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+- generated xml file: C:\Users\hakim\.codex\.chatgpt-projects\g-p-6a9e857166a08191904b70e561216dca\outputs\09_Presentation\evidence\demo_check_results.xml -
+=========================== short test summary info ===========================
+FAILED test_week7_verification.py::test_cross_user_delete_is_denied_and_owner_task_survives
+========================= 1 failed, 2 passed in 4.81s =========================
+

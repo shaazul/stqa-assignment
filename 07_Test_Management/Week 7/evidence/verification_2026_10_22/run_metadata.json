@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-22T14:40:41.448976+00:00",
+  "command": [
+    "C:\\Users\\hakim\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "-p",
+    "pytest_cov",
+    "test_helpers.py",
+    "test_api_automation.py",
+    "test_week7_verification.py",
+    "-v",
+    "--tb=short",
+    "--basetemp=C:\\Users\\hakim\\.codex\\.chatgpt-projects\\g-p-6a9e857166a08191904b70e561216dca\\tmp\\verification-tests",
+    "--junitxml=C:\\Users\\hakim\\.codex\\.chatgpt-projects\\g-p-6a9e857166a08191904b70e561216dca\\outputs\\Week_7_Repaired\\evidence\\verification_2026_10_22\\results.xml",
+    "--cov=helpers",
+    "--cov=app",
+    "--cov-branch",
+    "--cov-report=term-missing",
+    "--cov-report=json:C:\\Users\\hakim\\.codex\\.chatgpt-projects\\g-p-6a9e857166a08191904b70e561216dca\\outputs\\Week_7_Repaired\\evidence\\verification_2026_10_22\\coverage.json"
+  ],
+  "exit_code": 1,
+  "database": "per-test temporary SQLite; originals not used"
+}

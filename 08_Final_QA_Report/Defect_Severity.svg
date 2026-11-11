@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="378" viewBox="0 0 760 378">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="32" font-family="Arial" font-size="21" fill="#152438">11 canonical issues by proposed severity</text>
+<text x="24" y="91" font-family="Arial" font-size="15">Critical: 0</text>
+<text x="24" y="153" font-family="Arial" font-size="15">Major: 3</text>
+<rect x="230" y="134" width="42" height="29" rx="3" fill="#b63c39"/>
+<text x="251.0" y="154" text-anchor="middle" font-family="Arial" font-size="14" fill="white">3</text>
+<text x="24" y="215" font-family="Arial" font-size="15">Moderate: 7</text>
+<rect x="230" y="196" width="98" height="29" rx="3" fill="#b57519"/>
+<text x="279.0" y="216" text-anchor="middle" font-family="Arial" font-size="14" fill="white">7</text>
+<text x="24" y="277" font-family="Arial" font-size="15">Minor: 1</text>
+<rect x="230" y="258" width="14" height="29" rx="3" fill="#486587"/>
+<text x="237.0" y="278" text-anchor="middle" font-family="Arial" font-size="14" fill="white">1</text>
+<text x="24" y="358" font-family="Arial" font-size="13" fill="#38465a">Includes Open/Retest issues: 8 Confirmed, 2 Open, 1 Retest. CR-001 is now confirmed.</text></svg>

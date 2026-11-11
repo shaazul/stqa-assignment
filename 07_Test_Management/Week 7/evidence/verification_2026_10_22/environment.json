@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "Flask": "3.0.3",
+  "Werkzeug": "3.1.9",
+  "pytest": "9.1.1",
+  "pytest-cov": "7.1.0",
+  "coverage": "7.16.2"
+}

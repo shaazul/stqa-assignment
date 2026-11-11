@@ -1,0 +1,12 @@
+﻿ID,Feature,Severity,Priority,Status
+D-001,Registration,Moderate,Medium,Confirmed
+D-002,Registration,Moderate,High,Confirmed
+D-003,Task creation,Moderate,Medium,Open
+D-004,Urgency,Moderate,High,Confirmed
+D-005,API authentication,Major,High,Retest
+D-006,Dashboard / helper,Moderate,Medium,Confirmed
+D-007,GUI feedback,Minor,Medium,Open
+D-008,Accessibility,Moderate,Medium,Confirmed
+D-009,Task API validation,Moderate,High,Confirmed
+D-010,Task search,Major,High,Confirmed
+CR-001,Task API ownership / deletion,Major,High,Confirmed

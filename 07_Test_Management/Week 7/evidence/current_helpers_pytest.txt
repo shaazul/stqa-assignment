@@ -1,0 +1,42 @@
+New validation run: 22 October 2026
+Command: python -m pytest -p no:cacheprovider test_helpers.py -q
+Python: 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]
+
+..F....F...........F.....                                                [100%]
+================================== FAILURES ===================================
+____________________________ test_urg_03_due_today ____________________________
+
+    def test_urg_03_due_today():
+>       assert compute_urgency("2026-10-19", today=date(2026, 10, 19)) == "Due Today"
+E       AssertionError: assert 'Overdue' == 'Due Today'
+E         
+E         - Due Today
+E         + Overdue
+
+test_helpers.py:23: AssertionError
+________________________ test_pwd_03_eight_characters _________________________
+
+    def test_pwd_03_eight_characters():
+>       assert is_valid_password("abc12345") is True
+E       AssertionError: assert False is True
+E        +  where False = is_valid_password('abc12345')
+
+test_helpers.py:45: AssertionError
+_____________________ test_day_03_exactly_seven_days_ago ______________________
+
+    def test_day_03_exactly_seven_days_ago():
+>       assert completed_in_last_n_days(
+            "2026-10-12 12:00:00",
+            n=7,
+            now=datetime(2026, 10, 19, 12, 0, 0),
+        ) is True
+E       AssertionError: assert False is True
+E        +  where False = completed_in_last_n_days('2026-10-12 12:00:00', n=7, now=datetime.datetime(2026, 10, 19, 12, 0))
+E        +    where datetime.datetime(2026, 10, 19, 12, 0) = datetime(2026, 10, 19, 12, 0, 0)
+
+test_helpers.py:103: AssertionError
+=========================== short test summary info ===========================
+FAILED test_helpers.py::test_urg_03_due_today - AssertionError: assert 'Overd...
+FAILED test_helpers.py::test_pwd_03_eight_characters - AssertionError: assert...
+FAILED test_helpers.py::test_day_03_exactly_seven_days_ago - AssertionError: ...
+3 failed, 22 passed in 0.22s

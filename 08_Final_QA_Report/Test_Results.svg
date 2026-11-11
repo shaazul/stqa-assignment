@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="316" viewBox="0 0 760 316">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="32" font-family="Arial" font-size="21" fill="#152438">Verified automated run: 38 Pass / 6 Fail</text>
+<text x="24" y="91" font-family="Arial" font-size="15">Helpers (25)</text>
+<rect x="230" y="72" width="308" height="29" rx="3" fill="#18745c"/>
+<text x="384.0" y="92" text-anchor="middle" font-family="Arial" font-size="14" fill="white">22</text>
+<rect x="538" y="72" width="42" height="29" rx="3" fill="#b63c39"/>
+<text x="559.0" y="92" text-anchor="middle" font-family="Arial" font-size="14" fill="white">3</text>
+<text x="24" y="153" font-family="Arial" font-size="15">Existing API (16)</text>
+<rect x="230" y="134" width="196" height="29" rx="3" fill="#18745c"/>
+<text x="328.0" y="154" text-anchor="middle" font-family="Arial" font-size="14" fill="white">14</text>
+<rect x="426" y="134" width="28" height="29" rx="3" fill="#b63c39"/>
+<text x="440.0" y="154" text-anchor="middle" font-family="Arial" font-size="14" fill="white">2</text>
+<text x="24" y="215" font-family="Arial" font-size="15">Verification (3)</text>
+<rect x="230" y="196" width="28" height="29" rx="3" fill="#18745c"/>
+<text x="244.0" y="216" text-anchor="middle" font-family="Arial" font-size="14" fill="white">2</text>
+<rect x="258" y="196" width="14" height="29" rx="3" fill="#b63c39"/>
+<text x="265.0" y="216" text-anchor="middle" font-family="Arial" font-size="14" fill="white">1</text>
+<text x="24" y="296" font-family="Arial" font-size="13" fill="#38465a">Green = Pass; red = Fail. New run only, 22 October 2026; historical records excluded.</text></svg>
