@@ -2,15 +2,18 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+.coverage
 .pytest_cache/
 .venv/
 venv/
+.env
 
 # SQLite / app runtime artifacts
 *.db
 *.sqlite
 *.sqlite3
 instance/
+pytodo_pro.db
 
 # OS junk
 desktop.ini
