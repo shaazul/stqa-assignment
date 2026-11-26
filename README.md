@@ -4,6 +4,18 @@ Course: TEB3433 / TFB3433
 Semester: September 2026  
 Application under test: PyTodo Pro
 
+## Team details
+This project was completed by the following group members:
+
+1. **Farisha Binti Mohamad Zulkefli**
+   - Student ID: 22001276
+2. **Muhammad Danial Hakim bin Jul Ikhram**
+   - Student ID: 22003590
+3. **Elisa Filza Mizwan binti Lius**
+   - Student ID: 22002775 
+4. **Nurfarhana Najihah binti Mohd Fadli**
+   - Student ID: 22003122 
+
 ## Project overview
 
 This repository contains a progressive quality evaluation of PyTodo Pro, a Flask and SQLite task-management application. The project evaluates the supplied application rather than developing or repairing it. Testing covers functional behaviour, validation boundaries, selected white-box paths, GUI and accessibility observations, REST API behaviour, controlled security checks, short local performance experiments, automated regression, traceability, defect management and final quality evaluation.
